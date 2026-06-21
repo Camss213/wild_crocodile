@@ -239,6 +239,9 @@ footer{background:var(--ink);color:var(--sand);padding:54px 0 28px;}
 .contact-info h4{margin:0 0 6px;font-size:16px;font-family:'Work Sans';font-weight:700;letter-spacing:.5px;}
 .contact-info p,.contact-info a{margin:0;color:#444;font-size:15px;}
 .contact-info a:hover{color:var(--teal);}
+.contact-info .whatsapp-qr{display:block;width:160px;margin-top:14px;}
+.contact-info .whatsapp-qr img{display:block;width:100%;height:auto;border-radius:4px;}
+.contact-info .qr-hint{margin-top:7px;font-size:12px;color:#666;}
 
 form.booking{background:var(--sand);padding:36px;border-radius:2px;border-top:4px solid var(--gold);}
 form.booking .row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
