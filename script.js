@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded',function(){
     document.querySelectorAll('.lang-toggle button').forEach(function(b){
       b.classList.toggle('active', b.dataset.lang===lang);
     });
+    document.querySelectorAll('option[data-'+lang+']').forEach(function(option){
+      option.textContent=option.dataset[lang];
+    });
     localStorage.setItem('wca-lang',lang);
   }
   document.querySelectorAll('.lang-toggle button').forEach(function(b){
