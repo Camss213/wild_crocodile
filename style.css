@@ -255,7 +255,14 @@ form.booking button{width:100%;border:none;margin-top:6px;}
 .map-strip{height:340px;background:var(--swamp);position:relative;overflow:hidden;}
 .map-strip iframe{width:100%;height:100%;border:0;filter:saturate(.8) contrast(1.05);}
 
-[lang-si]{display:none;}
+[lang-fr],[lang-de],[lang-es],[lang-ru],[lang-si]{display:none;}
+html.fr [lang-en]{display:none;}
+html.fr [lang-fr]{display:initial;}
+html.de [lang-en]{display:none;}
+html.de [lang-de]{display:initial;}
+html.es [lang-en]{display:none;}
+html.es [lang-es]{display:initial;}
+html.ru [lang-en]{display:none;}
+html.ru [lang-ru]{display:initial;}
 html.si [lang-en]{display:none;}
 html.si [lang-si]{display:initial;}
-html.si .stars-label{display:none;}
