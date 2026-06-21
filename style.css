@@ -203,7 +203,7 @@ section{padding:90px 0;}
 .review .stars{color:var(--gold);font-size:15px;margin-bottom:14px;letter-spacing:2px;}
 .review p{font-size:15.5px;color:#2c3733;margin:0 0 18px;font-style:italic;}
 .review .who{font-family:'Anton';font-size:14px;letter-spacing:1px;color:var(--swamp-dark);}
-.review .who span{display:block;font-family:'Work Sans';font-weight:500;text-transform:none;letter-spacing:0;color:#5c655f;font-size:13px;margin-top:2px;}
+.review .who > span{display:block;font-family:'Work Sans';font-weight:500;text-transform:none;letter-spacing:0;color:#5c655f;font-size:13px;margin-top:2px;}
 @media(max-width:900px){.reviews{grid-template-columns:1fr;}}
 
 /* cta band */
